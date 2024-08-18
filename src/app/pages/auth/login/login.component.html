@@ -1,0 +1,70 @@
+<main>
+    <!-- Cabecera -->
+    <section class="breadcrumb__area include-bg text-center pt-95 pb-1">
+       <div class="container">
+          <div class="row">
+             <div class="col-xxl-12">
+                <div class="breadcrumb__content p-relative z-index-1">
+                   <h3 class="breadcrumb__title">My account</h3>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+
+    <!---------- Cuerpo del login area start ---------->
+    <section class="tp-login-area pb-140 p-relative z-index-1 fix">
+      <!-- Imagenes -->
+      <div class="tp-login-shape">
+         <img class="tp-login-shape-1" src="../../../../assets/images/login-shape-1.png" alt="">
+         <img class="tp-login-shape-2" src="../../../../assets/images/login-shape-2.png" alt="">
+         <img class="tp-login-shape-3" src="../../../../assets/images/login-shape-3.png" alt="">
+         <img class="tp-login-shape-4" src="../../../../assets/images/login-shape-4.png" alt="">
+      </div>
+
+       <div class="container">
+          <div class="row justify-content-center">
+             <div class="col-xl-6 col-lg-8">
+                <div class="tp-login-wrapper">
+                  <div class="tp-login-option">
+
+                     <!-- Login with Email -->
+                      <div class="tp-login-input-wrapper">
+                         <div class="tp-login-input-box">
+                            <div class="tp-login-input">
+                               <input id="email" type="email" [(ngModel)]="email" placeholder="shofy@mail.com">
+                            </div>
+                            <div class="tp-login-input-title">
+                               <label for="email">Your Email</label>
+                            </div>
+                         </div>
+                         <div class="tp-login-input-box">
+                            <div class="tp-login-input">
+                               <input id="tp_password" type="password" [(ngModel)]="password" placeholder="Min. 6 character">
+                            </div>
+                            
+                            <div class="tp-login-input-title">
+                               <label for="tp_password">Password</label>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="tp-login-suggetions d-sm-flex align-items-center justify-content-between mb-20">
+                         <div class="tp-login-remeber">
+                            <input id="remeber" type="checkbox">
+                            <label for="remeber">Remember me</label>
+                         </div>
+                         <div class="tp-login-forgot">
+                            <a routerLink="/cambiar-credenciales">Forgot Password?</a>
+                         </div>
+                      </div>
+                      <div class="tp-login-bottom">
+                         <a href="#" onclick="return false;" (click)="login()" class="tp-login-btn w-100">Login</a>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+
+ </main>

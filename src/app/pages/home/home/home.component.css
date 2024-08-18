@@ -1,0 +1,52 @@
+.banner {
+    background-image: url('../../../../assets/images/banner.png'); /* Puedes usar una imagen de fondo aquí */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .text-content {
+    max-width: 600px;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .register-btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .register-btn:hover {
+    background-color: #e68a00;
+  }
+  
